@@ -46,8 +46,17 @@ a {
 .btn:hover {
   box-shadow: 0 0 20px 0 #fff;
 }
+.btn.donate {
+  background: oklch(60.9% 0.126 221.723);
+  box-shadow: 0 0 15px 0 oklch(60.9% 0.126 221.723);
+  color: white;
+}
 .hire-me {
   opacity: 0;
+}
+.donate {
+  opactiy: 0;
+  margin-right: 15px;
 }
 .name {
   position: absolute;
